@@ -6,7 +6,6 @@
 
 # In[1]:
 
-
 import torch.nn as nn
 import torch
 from torchvision import datasets
