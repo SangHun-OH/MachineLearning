@@ -37,8 +37,6 @@ class Net(nn.Module):
 
         return x5
  
-
-
 # In[3]:
 
 
