@@ -37,7 +37,6 @@ class Net(nn.Module):
  
 # In[3]:
 
-
 #xavier를 적용하기 위한 함수
 def xavier_init(model):
     torch.nn.init.xavier_uniform_(model.fc1.weight)
