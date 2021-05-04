@@ -15,6 +15,7 @@ import numpy as np
 import torch.optim as optim
 import matplotlib.pyplot as plt
 
+
 # In[2]:
 
 # 모델 구성하기
@@ -25,7 +26,7 @@ class Net(nn.Module):
         self.relu = nn.ReLU()
         self.fc2 = nn.Linear(100,100)
         self.fc3 = nn.Linear(100,10)
-        
+      
     def forward(self, x):
         x1 = self.fc1(x)
         x2 = self.relu(x1)
