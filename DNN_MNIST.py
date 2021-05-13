@@ -43,7 +43,6 @@ def xavier_init(model):
     torch.nn.init.xavier_uniform_(model.fc2.weight)
     torch.nn.init.xavier_uniform_(model.fc3.weight)
 
-
 # In[4]:
 
 
