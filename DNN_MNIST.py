@@ -16,7 +16,6 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 
 # In[2]:
-
 # 모델 구성하기
 
 class Net(nn.Module):
