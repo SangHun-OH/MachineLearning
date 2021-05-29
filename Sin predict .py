@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 
 # In[2]:
 
-
 class RNN(nn.Module):
     def __init__(self, input_size, output_size, hidden_size, n_layers):
         super(RNN, self).__init__()
