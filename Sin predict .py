@@ -23,7 +23,8 @@ class RNN(nn.Module):
         batch_size = x.size(0)
         r_out, hidden = self.rnn(x, hidden)
         output = self.fc(r_out)
-
+        
+        
         return output, hidden
 
 
