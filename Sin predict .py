@@ -26,7 +26,7 @@ class RNN(nn.Module):
         
         return output, hidden
 
- # class LSTM 구조도 적용해볼 
+ # class LSTM 구조도 적용해볼 예정이다.
 
 # In[3]:
 
